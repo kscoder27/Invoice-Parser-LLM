@@ -6,26 +6,7 @@ A modular Python application that leverages **Large Language Models (LLMs)** lik
 
 ## 📁 Project Structure
 
-Invoice-Parser-LLM/
-├── app/ # Streamlit UI components
-│ ├── main.py # App launcher
-│ └── layout.py # Streamlit UI layout
-│
-├── core/ # Core logic
-│ ├── parser.py # PDF parsing & text extraction
-│ ├── prompt_templates.py # LLM prompt templates
-│ └── validator.py # Data validation with Pydantic
-│
-├── models/ # LLM integration
-│ └── llama_model.py # Load & run LLaMA from Hugging Face
-│
-├── data/sample_invoices/ # Sample invoice PDFs
-├── outputs/extracted_data/ # Parsed JSON outputs
-├── tests/test_parser.py # Unit tests
-│
-├── requirements.txt # Dependencies
-├── .env # API keys / tokens
-└── README.md # This file
+<pre lang="markdown"> ```bash Invoice-Parser-LLM/ ├── app/ # Streamlit UI components │ ├── main.py # App launcher │ └── layout.py # Streamlit UI layout ├── core/ # Core logic │ ├── parser.py # PDF parsing & text extraction │ ├── prompt_templates.py # LLM prompt templates │ └── validator.py # Data validation with Pydantic ├── models/ # LLM integration │ └── llama_model.py # Load & run LLaMA from Hugging Face ├── data/sample_invoices/ # Sample invoice PDFs ├── outputs/extracted_data/ # Parsed JSON outputs ├── tests/test_parser.py # Unit tests ├── requirements.txt # Dependencies ├── .env # API keys / tokens └── README.md # Project overview ``` </pre>
 
 ---
 
@@ -68,3 +49,4 @@ Ensure you're in the project root and your virtual environment is active
 ```bash
 python -m streamlit run app/main.py
 ```
+
