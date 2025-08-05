@@ -1,0 +1,13 @@
+#Core application dependencies
+streamlit
+pydantic
+python-dotenv
+pypdf
+
+#For running the LLM (if using real models)
+transformers
+torch
+accelerate
+requests
+#For testing
+pytest
