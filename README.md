@@ -70,5 +70,12 @@ Ensure you're in the project root and your virtual environment is active
 ```bash
 python -m streamlit run app/main.py
 ```
+<img width="955" height="431" alt="image (2)" src="https://github.com/user-attachments/assets/73544f6a-8ee4-4c95-8cb5-2595936fc92c" />
+
+![image](https://github.com/user-attachments/assets/4888cc03-3204-4537-9395-ce78f5ed0e37)
+
+
+
+
 
 
